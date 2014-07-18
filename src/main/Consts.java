@@ -1,6 +1,6 @@
 package main;
 
-public class FinalString {
+public class Consts {
 
 	public static String hello = "Hello World !!";
 	public static String goodBye= "Good Bye Japan !!";
