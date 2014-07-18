@@ -6,5 +6,5 @@ public class Consts {
 	public static String goodBye= "Good Bye Japan !!";
 	public static String helloGoodBye= "Hello,Good Bye ...";
 	public static String testGti= "test-git.git";
-	public static String test= "test";
+	public static String test4= "test4";
 }
