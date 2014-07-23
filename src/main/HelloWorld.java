@@ -7,6 +7,7 @@ public class HelloWorld {
 		System.out.println(Consts.goodBye);
 		System.out.println(Consts.hello);
 		System.out.println(Consts.helloGoodBye);
+		System.out.println(Consts.testGit);
 		System.out.println(new Date());	
 	}
 }
