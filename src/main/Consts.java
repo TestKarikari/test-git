@@ -7,5 +7,5 @@ public class Consts {
 	public static String helloGoodBye= "Hello,Good Bye ...";
 	public static String testGit= "test is good.";
 	public static String testWebHook= "test is bad.";
-	public static String test0804= "8/4.";
+	public static String testJSON= "JSON";
 }
