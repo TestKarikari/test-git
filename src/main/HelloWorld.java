@@ -15,6 +15,6 @@ public class HelloWorld {
 		System.out.println(Consts.testGit);
 		System.out.println(new Date());	
 		
-		System.exit(0);
+		System.exit(Consts.EXIT_OK);
 	}
 }
