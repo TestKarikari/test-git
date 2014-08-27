@@ -8,20 +8,26 @@ public class Calc {
 		return x + y;
 	}
 	
-	public int kake(int x,int y){
-		return x * y;
+	public String kakezan(int x, int y){
+		return kake(x,y).toString();
 	}
-
-	public int wari(int x,int y){
+	public String warizan(int x,int y){
 		// 整数しか返せない
 		if(x < y){
-			return 0;			
+			return "結果が少数になる割り算はできません。";			
 		}
 		// 数学上は正しくないが0を返す
 		if(y == 0 ){
-			return 0;
-		}
-		return x / y;
+			return "0除算はできません。";
+		}		
+		return wari(x,y).toString();
 	}
 	
+	private Integer kake(int x,int y){
+		return x * y;
+	}
+
+	private Integer wari(int x,int y){
+		return x / y;
+	}
 }
