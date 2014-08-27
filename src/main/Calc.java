@@ -1,5 +1,6 @@
 package main;
 public class Calc {
+	// test
 	public int tashi(int x,int y){
 		return x + y;
 	}
