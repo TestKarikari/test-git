@@ -14,7 +14,7 @@ public class HelloWorld {
 		System.out.println(Consts.helloGoodBye);
 		System.out.println(Consts.testGit);
 		System.out.println(new Date());	
-		
+		System.out.println("test");
 		System.exit(Consts.EXIT_OK);
 	}
 }
