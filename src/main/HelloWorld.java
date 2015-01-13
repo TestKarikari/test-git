@@ -14,6 +14,8 @@ public class HelloWorld {
 		System.out.println(Consts.helloGoodBye);
 		System.out.println(Consts.testGit);
 		System.out.println(new Date());	
+
+		System.out.println("20140113_差分発生テスト");	
 		
 		System.exit(Consts.EXIT_OK);
 	}
